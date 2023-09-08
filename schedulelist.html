@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title>Schedule_list</title>
+    <style>
+        
+            img{
+            height: 30px;
+            width: 30px;
+            border-radius: 360px;
+            margin-left: 10px;
+            margin-right: 10%;
+        }
+        body{
+            margin: 5% 10%;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            padding: 1%;
+        }
+        th{
+            padding: 0.5%;
+        }
+        .status{
+            height: 30px;
+            width: 100px;
+            padding: 1%;
+        }
+        .sched{
+            border-radius: 360px;
+            margin: -100px auto auto 80%;
+        
+        }
+    </style>
+</head>
+<body>
+    <h2>SCHEDULE</h2>
+    <a href="10_schedule.html"><button class="btn btn-lg sched" style="background-color:#85C1E9">+ Add Schedule</button></a>
+
+    <table>
+        <thead class="table-dark">
+            <tr>
+                <th>Doctor's Name</th>
+                <th>Department</th>
+                <th>Available Days</th>
+                <th>Available Time</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tr class="table-light">
+            <td><img src="d1.png" alt="">Henry Daniels</td>
+            <td>Cardiology</td>
+            <td>Sunday,Monday,Wednesday</td>
+            <td>10AM-1PM</td>
+            <td><button class="status btn btn-outline-success status">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+
+        <tr class="table-dark">
+            <td><img src="d2.png" alt="">frangle Mangle</td>
+            <td>Neurology</td>
+            <td>Saturday,Tuesday,Thursday</td>
+            <td>10AM-1PM</td>
+            <td><button class="status btn btn-outline-danger status">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+		 <tr class="table-light">
+            <td><img src="d3.jpg" alt="">Lesk Plack</td>
+            <td>Cardiology</td>
+            <td>mondat,Wednesday,Friday</td>
+            <td>10AM-11AM</td>
+            <td><button class="status btn btn-outline-success status">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+		 <tr class="table-dark">
+            <td><img src="d4.jpg" alt="">Ronald Jacobs</td>
+            <td>Cardiology</td>
+            <td>Thursday,Saturday</td>
+            <td>1PM-2PM</td>
+            <td><button class="status btn btn-outline-danger status">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+
+    </table>    
+</body>
+</html>

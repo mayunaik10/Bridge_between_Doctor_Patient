@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Polyclinic & Nursing Home </title>
+    <style>.box{  
+      margin: 0 auto;
+      justify-content: center;
+      background-color:black;
+      opacity: 0.7;
+      border-radius: 5px;
+      padding: 10px 0px 10px 0px;
+      width: 100%;
+      height: 4%; 
+    }</style>
+</head>
+<body>
+  
+
+<div class="login-box">
+
+<img src="patient.png" alt="Logo" class="avatar">
+    <h1>Login Here</h1>
+    <b>Login as </b><input type="button" name="doctor" value="Doctor" onClick="myFunction()"> 
+         
+         <br>
+
+    <form name="userentry" action="Patientlogin.php" method="post">
+
+        <p>Email Id</p>
+        <input type="text" required name="email" id="email" placeholder="Enter email here" autocomplete="off">
+        <p>Password</p>
+        <input type="password" name="pass" id="pass" required placeholder="Enter Password here" autocomplete="off">
+
+        <input type="submit" value="Login" name="login">
+
+        Don't have an account? <a href="Patientsignup.html"><font color="yellow"> Register</font></a><br>
+
+    
+       
+         
+    </form>
+
+</div>
+<script>
+    function myFunction() {
+      window.location.href="Doctorlogin.html";
+      
+    }
+
+    
+  </script>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title>Schedule</title>
+	<style>
+	body{
+			margin-top: 10%;
+			margin-bottom: 10%;
+			margin-left: 20%;
+			margin-right: 20%;
+			border: 3px ridge;
+			background-color:#A9CCE3;
+		}
+	
+	</style>
+</head>
+<body class="jumbotron"style="background-color:#D4E6F1">
+    <form action="scheduleform.php" method="post">
+        <div class="row">
+            <div class="form-group col-lg-6">
+
+                <label for="Doctor">Doctor's Name</label>
+                <select class="custom-select " name="dname" required>
+                <option selected>Select Doctor's Name</option>
+                <option value="DR. AMIT BALI">DR. AMIT BALI</option>
+                <option value="DR.GEETIKA BALI">DR.GEETIKA BALI</option>
+                <option value="DR. P.G.KAMATH">DR. P.G.KAMATH</option>
+                <option value="DR. PRASOON SRIVASTAVA">DR. PRASOON SRIVASTAVA</option>
+                <option value="DR ILA TYAGI">DR ILA TYAGI</option>
+				<option value="DR.ANURADHA NARAYANAN">DR.ANURADHA NARAYANAN</option>
+                <option value="DR.VIJAY OGALE">DR.VIJAY OGALE </option>
+                <option value="DR.CHHAYA KUSHWAHA">DR.CHHAYA KUSHWAHA</option>
+                <option value="DR PRAVEEN GANGANE">DR PRAVEEN GANGANE</option>
+                <option value="DR. PRASAD WANKHEDE">DR. PRASAD WANKHEDE</option>
+                <option value="DR.DUSHYANT PANDIT">DR.DUSHYANT PANDIT</option>
+                <option value="DR.SANJEEV GUPTA">DR.SANJEEV GUPTA</option>
+                <option value="DR.ARP1TA THAMBA">DR.ARP1TA THAMBA</option>
+                <option value="DR. ABHAY GUPTA">DR. ABHAY GUPTA </option>
+                <option value="DR.ASEEM THAMBA">DR.ASEEM THAMBA</option>
+                <option value="DR GAURAV KASAT">DR GAURAV KASAT</option>
+                <option value="DR.PRASHANT KEWALE"> DR.PRASHANT KEWALE</option>
+                <option value="DR.PARAG VIBHAKAR">DR.PARAG VIBHAKAR</option>
+                <option value="DR. MANOJ VISHWAKARMA">DR. MANOJ VISHWAKARMA</option>
+                <option value="DR.ROH IT CHITAMANI">DR.ROH IT CHITAMANI</option>
+                <option value="DR ANIL VENKATACHALLAM">DR ANIL VENKATACHALLAM</option>
+                <option value="DR. B.KACHARYA">DR. B.KACHARYA</option>
+                <option value="DR. MEGHRAI INGLE">DR. MEGHRAI INGLE</option>
+                <option value="DR. BHUSHAN THAKUR">DR. BHUSHAN THAKUR</option>
+                <option value="DR MUKESH PAREKH">DR MUKESH PAREKH</option>
+                <option value="DR.AMIT GANDHI">DR.AMIT GANDHI</option>
+                <option value="DR.GUARAV GHATAWAT">DR.GUARAV GHATAWAT</option>
+                <option value="DR. VLIAY GAIKWAD">DR. VLIAY GAIKWAD</option>
+                <option value="DR. PRAVIN PADALKAR">DR. PRAVIN PADALKAR</option>
+                <option value="DR.MANDAR KUBAL">DR.MANDAR KUBAL</option>
+                <option value="DR PRASHANT BANSODC">DR PRASHANT BANSODC</option>    
+            </select></div>
+            
+                <div class="form-group col-lg-6">
+                    <label for="Department">Department</label>
+                    <select class="custom-select " name="department" required>
+                    <option selected>Select Department</option>
+                    <option value="ORTHOPEDIC">ORTHOPEDIC</option>
+                    <option value="MEDICINE">MEDICINE</option>
+                    <option value="GYANAC & OBS">GYANAC & OBS </option>
+                    <option value="SURGERY">SURGERY</option>
+                    <option value="OPTHALMOLOGY">OPTHALMOLOGY</option>
+                    <option value="PAEDIATRIC">PAEDIATRIC</option>
+                    <option value="DERMATOLOGY">DERMATOLOGY</option>
+                    <option value="RADIOLOGY">RADIOLOGY</option>
+                    <option value="PEDIATRIC SURGERY">PEDIATRIC SURGERY</option>
+                    <option value="1NEPHROLOGY">NEPHROLOGY</option>
+                    <option value="UROLOGY">UROLOGY</option>
+                    <option value="ENT SURGEON ">ENT SURGEON </option>
+                    <option value="PLASTIC SURGERY">PLASTIC SURGERY</option>
+                    <option value="PHYSIOTHERAPY">PHYSIOTHERAPY</option>
+                    <option value="1NEUROLOGY">NEUROLOGY</option>
+                    <option value="GASTROENTEROLOGY">GASTROENTEROLOGY</option>
+                    <option value="CARDIOLOGY">CARDIOLOGY</option>
+                    <option value="ONCOLOGY">ONCOLOGY</option>
+                    <option value="PULMONOLCGY">PULMONOLCGY</option>   
+                    <option value="PHYCHOLOGY">PHYCHOLOGY</option>   
+                    <option value="PATHOLOGY">PATHOLOGY</option>   
+                         
+    
+                </select>
+                </div>
+                </div>
+
+            <div class="row">
+            <div class="form-group col-lg-6">
+                <label for="AvlDays">Available Days</label>
+                <input type="text" name="days" class="form-control" >
+            </div>
+    
+            <div class="form-group col-lg-6">
+            
+                <label for="Stime">Available Time</label>
+                <input type="text" name="time" class="form-control" >
+            </div>
+            
+        </div>
+
+        
+
+        
+        </div>
+    
+        
+    
+    <button name="submit" class="btn btn-lg " style="width: 25%; margin-left: 35%;margin-top: 20px; border-radius: 360px;background-color: #85C1E9">Create Schedule</button>
+</form>
+</body>
+</html>

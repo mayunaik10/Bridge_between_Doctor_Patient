@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <style>
+            body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(252, 254, 255);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box{  
+  margin: 0 auto;
+  justify-content: center;
+  background-color:black;
+  opacity: 0.7;
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  height: 5%; 
+}
+.flip-card-front {
+  background-color: rgb(198, 226, 235);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #0d5663;
+  color: rgb(255, 250, 250);
+  transform: rotateY(180deg);
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color:black;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+        </style>
+    </head>
+    <body>
+        <center><h1 class="box"><font color="white" >Doctor's Profile</font></h1></center><br>
+        
+<section id="pricing">
+    <div class="product" id="valve">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="d1.png" alt="Avatar" style="width:300px;height:300px;">
+                <h3>DR. P.G.KAMATH</h3>
+              </div>
+              <div class="flip-card-back">  
+                <h3>DR. P.G.KAMATH</h3>              
+                <h5>Speciality : PHYSICIAN</h5>
+                <h5> Qualification : MD, MEDICINE</h5>
+                <h5>Address : CHEM8UR</h5>
+                <h5>Contact No : 9820169929</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product" id="valve">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="d2.png" alt="Avatar" style="width:300px;height:300px;">
+                <h3>DR.GEETIKA BALI</h3>
+              </div>
+              <div class="flip-card-back">
+                <h3>DR.GEETIKA BALI</h3>
+                    <h5>Speciality : OPHTHALMIC SURGEON</h5>
+                    <h5> Qualification : ON8 ,DOIVIS., PCPS</h5>
+                    <h5>Address : CHEM8UR</h5>
+                    <h5>Contact No : 9870439909</h5>
+                  </div>
+            </div>
+          </div>
+</div>
+
+<div class="product" id="valve">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="d3.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <h3>DR.VIJAY OGALE</h3>
+              </div>
+              <div class="flip-card-back">
+                <h3>DR.VIJAY OGALE</h3>
+                <h5>Speciality : LAPROSCOPIST SURGEON</h5>
+                <h5>Qualification : M.S.  FMAS.</h5>
+                <h5>Address : KURLA</h5>
+                <h5>Contact No : 9820165875</h5>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="product" id="valve">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="d4.jpg" alt="Avatar" style="width:300px;height:300px;">
+                    <h3>DR.ANURADHA NARAYANAN</h3>
+                  </div>
+                  <div class="flip-card-back">  
+                    <h3>DR.ANURADHA NARAYANAN</h3>
+                    <h5>Speciality : GYANAECOLOGIST</h5>
+                    <h5>Qualification : COO,  DNB.</h5>
+                    <h5>Address : KURLA</h5>
+                <h5>Contact No : 7506176866</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+</section>
+<br><br>
+
+<section id="pricing">
+            
+        
+                <div class="product" id="valve">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="d5.png" alt="Avatar" style="width:300px;height:300px;">
+                        <h3>DR.ARPITA THAMBA</h3>
+                      </div>
+                      <div class="flip-card-back">
+                        <h3>DR.ARPITA THAMBA</h3>
+                        <h5>Speciality : RADIOLOGY</h5>
+                        <h5>Qualification : SONOLOGIST</h5>
+                        <h5>Address : CHEMBUR</h5>
+                <h5>Contact No : 9821038247</h5>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        
+        <div class="product" id="valve">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="d6.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <h3>DR PRAVEEN GANGANE</h3>
+                      </div>
+                      <div class="flip-card-back">
+                        <h3>DR PRAVEEN GANGANE</h3>
+                        <h5>Speciality : PAEDIATRICIAN</h5>
+                        <h5>Qualification : M885, DCH</h5>
+                        <h5>Address : GOWANDI</h5>
+                        <h5>Contact No : 9664937928</h5>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="product" id="valve">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="d7.png" alt="Avatar" style="width:300px;height:300px;">
+                            <h3>DR ILA TYAGI</h3>
+                          </div>
+                          <div class="flip-card-back">  
+                            <h3>DR ILA TYAGI</h3>
+                            <h5>Speciality : GYANAECOLOGIST</h5>
+                            <h5>Qualification : MD. 000, DNB. DRP</h5>
+                            <h5>Address : CHEMBUR</h5>
+                            <h5>Contact No : 9820012283</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="product" id="valve">
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="d8.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            <h3>DR.DUSHYANT PANDIT</h3>
+                          </div>
+                          <div class="flip-card-back">
+                            <h3>DR.DUSHYANT PANDIT</h3>
+                            <h5>Speciality : SKIN SPECIALIST</h5>
+                            <h5>Qualification : MBE& DEN</h5>
+                            <h5>Address : KURLA</h5>
+                            <h5>Contact No : 9820442654</h5>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+</section>
+<br><br>
+
+
+<section id="pricing">
+            
+        
+    <div class="product" id="valve">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="d4.jpg" alt="Avatar" style="width:300px;height:300px;">
+            <h3>DR.ASEEM THAMBA</h3>
+          </div>
+          <div class="flip-card-back">
+            <h3>DR.ASEEM THAMBA</h3>
+                <h5>Speciality : NEPHROLOGIST</h5>
+                <h5>Qualification : M.D NEPHROLOGIST</h5>
+                <h5>Address : CHEMBUR</h5>
+                            <h5>Contact No : 9821611884</h5>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="product" id="valve">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="d1.png" alt="Avatar" style="width:300px;height:300px;">
+            <h3>DR. MEGHRAI INGLE</h3>
+          </div>
+          <div class="flip-card-back">
+            <h3>DR. MEGHRAI INGLE</h3>
+                <h5>Speciality : GASTROENTEROLOGIST</h5>
+                <h5>Qualification : DM GASTROENTEROLOGY</h5>
+                <h5>Address : CHEMBUR</h5>
+                <h5>Contact No : 9320979656</h5>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="product" id="valve">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="d6.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <h3>DR.GUARAV GHATAWAT</h3>
+              </div>
+              <div class="flip-card-back">  
+                <h3>DR.GUARAV GHATAWAT</h3>
+                <h5>Speciality : CHEST PHYSICIAN</h5>
+                <h5>Qualification : MD CHEST & TB</h5>
+                <h5>Address : ANDHERI</h5>
+                <h5>Contact No : 9820801942</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product" id="valve">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="d5.png" alt="Avatar" style="width:300px;height:300px;">
+                <h3>DR.CHHAYA KUSHWAHA</h3>
+              </div>
+              <div class="flip-card-back">
+                <h3>DR.CHHAYA KUSHWAHA</h3>
+                <h5>Speciality : PAEDIATRICIAN</h5>
+                <h5>Qualification : M.D. PAEDIATRICIAN</h5>
+                <h5>Address : CHEMBUR</h5>
+                <h5>Contact No : 9820118279</h5>
+              </div>
+            </div>
+          </div>
+</div>
+</section>
+<br><br>
+
+
+
+
+    </body>
+</html>

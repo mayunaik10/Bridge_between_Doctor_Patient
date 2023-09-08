@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+
+    <title>Appointment list</title>
+
+    <style>
+        body{
+            margin: 5% 10%;
+        }
+        table{
+            width: 100%;
+    
+
+        }
+        th{
+            padding: 0.5%;
+        }
+        td{
+            padding: 1%;
+        }
+        .status{
+            height: 30px;
+            width: 100px;
+            padding: 1%;
+        }
+        .appoint{
+            border-radius: 360px;
+            margin: -100px auto auto 80%;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>APPOINTMENTS</h2>
+    <a href="6_appointment.html"><button class="btn btn-lg btn-info appoint">+ Add Appointment</button></a>
+
+    <table table-hover>
+        <thead class="table-dark">
+            <tr>
+                <th>Appointment ID</th>
+                <th>Patient's Name</th>
+                <th>Age</th>
+                <th>Doctor's Name</th>
+                <th>Department</th>
+                <th>Appointment Date</th>
+                <th>Appointment Time</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tr class="table"> 
+            <td>APT001</td>
+            <td>Sania</td>
+            <td>30</td>
+            <td>Shirley Willies</td>
+            <td>Neurology</td>
+            <td>27/06/2020</td>
+            <td>11AM-12PM</td>
+            <td><button class="status btn btn-outline-info">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        </tr>
+        <tr class="table-info"> 
+            <td>APT002</td>
+            <td>Rohan</td>
+            <td>18</td>
+            <td>Michale sullivan</td>
+            <td>Psychology</td>
+            <td>27/06/2020</td>
+            <td>2PM-3PM</td>
+            <td><button class="status btn btn-outline-danger">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        </tr>
+		 <tr class="table"> 
+            <td>APT003</td>
+            <td>Sanaya</td>
+            <td>25</td>
+            <td>Fary Bones</td>
+            <td>Cardiology</td>
+            <td>28/06/2020</td>
+            <td>9PM-2PM</td>
+            <td><button class="status btn btn-outline-info">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        </tr>
+		  <tr class="table-info"> 
+            <td>APT004</td>
+            <td>Anshika</td>
+            <td>20</td>
+            <td>Fillmore mangle</td>
+            <td>Gynacology</td>
+            <td>29/06/2020</td>
+            <td>4PM-7PM</td>
+            <td><button class="status btn btn-outline-danger">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+    </table>
+</body>
+</html>
